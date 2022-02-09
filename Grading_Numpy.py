@@ -8,7 +8,7 @@ def GRADING_Algebra(testx,normalizeCols,dot_classic,dot_vectorized,mul_classic,m
         if(round(normalizeCols(testx)[0,0],3)==round(0.2672612419124244,3)): grades["normalizeCols"]=True
     except: grades["normalizeCols"]=False
     try:
-        if(round(dot_classic[0],3)==round(236.14775068085237,3)): grades["dot_classic"]=True
+        if(round(dot_classic,3)==round(236.14775068085237,3)): grades["dot_classic"]=True
     except: grades["dot_classic"]=False
     try:
         if(round(dot_vectorized,3)==round(236.1477506808524,3)):grades["dot_vectorized"]=True
