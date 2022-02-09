@@ -14,7 +14,7 @@ def GRADING(test,div2,mod,sqr,plus2,pwr,ex31,doub,mult,cube,ex33,ex34,ex35,ex36)
         if(ex31("1**2&3|4")=="1^2and3or4" and ex31("**&|")=="^andor"): grades["ex31"]=True
     except: grades["ex31"]=False
     try:
-        if(ex32==20000 and  doub(mult(cubes(2)))==160): grades["ex32"]=True
+        if(ex32==20000 and  doub(mult(cube(2)))==160): grades["ex32"]=True
     except: grades["ex32"]=False
     try:
         if(ex33(10)==21916.681339054318 and  ex33(2)==7.38167565355452 ): grades["ex33"]=True
