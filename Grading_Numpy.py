@@ -5,25 +5,25 @@ def GRADING_Algebra(testx,normalizeCols,dot_classic,dot_vectorized,mul_classic,m
     grades={"normalizeCols":False, "dot_classic":False,"dot_vectorized":False,
             "mul_classic":False,"mul_vectorized":False,"Gdot_classic":False,"Gdot_vectorized":False}
     try:
-        if(normalizeCols(testx)[0,0]==0.2672612419124244): grades["normalizeCols"]=True
+        if(round(normalizeCols(testx)[0,0],3)==round(0.2672612419124244,3)): grades["normalizeCols"]=True
     except: grades["normalizeCols"]=False
     try:
-        if(dot_classic==236.14775068085237): grades["dot_classic"]=True
+        if(round(dot_classic,3)==round(236.14775068085237,3)): grades["dot_classic"]=True
     except: grades["dot_classic"]=False
     try:
-        if(dot_vectorized[0,0]==236.1477506808524):grades["dot_vectorized"]=True
+        if(round(dot_vectorized[0,0],3)==round(236.1477506808524,3)):grades["dot_vectorized"]=True
     except: grades["dot_vectorized"]=False
     try:
-        if(mul_classic[0]==0.27112020101848283):grades["mul_classic"]=True
+        if(round(mul_classic[0],3)==round(0.27112020101848283,3)):grades["mul_classic"]=True
     except: grades["mul_classic"]=False
     try:
-        if(mul_vectorized[0,0]==0.27112020101848283):grades["mul_vectorized"]=True
+        if(round(mul_vectorized[0,0],3)==round(0.27112020101848283,3)):grades["mul_vectorized"]=True
     except: grades["mul_vectorized"]=False
     try:
-        if(Gdot_classic[2]==234.36335991512357):grades["Gdot_classic"]=True
+        if(round(Gdot_classic[2],3)==round(234.36335991512357,3)):grades["Gdot_classic"]=True
     except: grades["Gdot_classic"]=False
     try:
-        if(Gdot_vectorized[2,0]==234.36335991512334): grades["Gdot_vectorized"]=True
+        if(round(Gdot_vectorized[2,0],3)==round(234.36335991512334,3)): grades["Gdot_vectorized"]=True
     except: grades["Gdot_vectorized"]=False
 
     for x in grades:
