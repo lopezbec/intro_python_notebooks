@@ -1,6 +1,13 @@
 import numpy as np
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> e55a733a52a833204a32d757eb5c0c016a40fc06
 def GRADING_Algebra(normalizeCols,dot_classic,dot_vectorized,mul_classic,mul_vectorized,Gdot_classic,Gdot_vectorized):
+    
+    import numpy as np
+    
     testx= np.array([
      [10],
      [20],
