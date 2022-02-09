@@ -1,10 +1,6 @@
-import numpy as np
 
-def GRADING_Algebra(normalizeCols,dot_classic,dot_vectorized,mul_classic,mul_vectorized,Gdot_classic,Gdot_vectorized):
-    testx= np.array([
-     [10],
-     [20],
-     [30]])
+
+def GRADING_Algebra(testx,normalizeCols,dot_classic,dot_vectorized,mul_classic,mul_vectorized,Gdot_classic,Gdot_vectorized):
     
     grades={"normalizeCols":False, "dot_classic":False,"dot_vectorized":False,
             "mul_classic":False,"mul_vectorized":False,"Gdot_classic":False,"Gdot_vectorized":False}
