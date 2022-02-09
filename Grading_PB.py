@@ -1,4 +1,4 @@
-def GRADING(test,div2,mod,sqr,plus2,pwr,ex31,doub,mult,cube,ex33,ex34,ex35,ex36):
+def GRADING(test,div2,mod,sqr,plus2,pwr,ex31,ex32,doub,mult,cube,ex33,ex34,ex35,ex36):
     grades={"test":False, "Operators":False,"Functions":False,
             "ex31":False,"ex32":False,"ex33":False,"ex34":False,"ex35":False,"ex36":False,"ex37":"CHECK CODE ABOVE"}
     try:
