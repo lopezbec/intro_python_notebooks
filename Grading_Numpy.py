@@ -14,13 +14,13 @@ def GRADING_Algebra(testx,normalizeCols,dot_classic,dot_vectorized,mul_classic,m
         if(round(dot_vectorized,3)==round(236.1477506808524,3)):grades["dot_vectorized"]=True
     except: grades["dot_vectorized"]=False
     try:
-        if(round(mul_classic[0][0],3)==round(0.27112020101848283,3)):grades["mul_classic"]=True
+        if(round(mul_classic[0],3)==round(0.27112020101848283,3)):grades["mul_classic"]=True
     except: grades["mul_classic"]=False
     try:
         if(round(mul_vectorized[0,0],3)==round(0.27112020101848283,3)):grades["mul_vectorized"]=True
     except: grades["mul_vectorized"]=False
     try:
-        if(round(Gdot_classic[2][0],3)==round(234.36335991512357,3)):grades["Gdot_classic"]=True
+        if(round(Gdot_classic[2],3)==round(234.36335991512357,3)):grades["Gdot_classic"]=True
     except: grades["Gdot_classic"]=False
     try:
         if(round(Gdot_vectorized[2,0],3)==round(234.36335991512334,3)): grades["Gdot_vectorized"]=True
