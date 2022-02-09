@@ -1,3 +1,5 @@
+import numpy as np
+    
 def GRADING_Algebra(normalizeCols,dot_classic,dot_vectorized,mul_classic,mul_vectorized,Gdot_classic,Gdot_vectorized):
     
     import numpy as np
