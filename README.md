@@ -1,8 +1,7 @@
-# intro_python_notebooks
-
+# Python_Basics Notebook
 
 <table align="left">
   <td>
-    <a target="_blank" href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/main/Python_Basics.ipynb"><img src=https://github.com/lopezbec/intro_python_notebooks/blob/main/colab_logo_32px.png/>Run in Google Colab</a>
+    <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/main/Python_Basics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   </td>
-</table>
+  <td>
