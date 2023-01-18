@@ -68,7 +68,7 @@ def GRADING_Uni_LR(theta_0_CGD,theta_1_CGD,J_CompCost,theta_GDV,theta_best_NQ):
     except: grades["Classic_gradientDescent"]=False
   
     try:
-        if( round(J,3)==794.898): grades["computeCost"]=True
+        if( round(J_CompCost,3)==794.898): grades["computeCost"]=True
     except: grades["computeCost"]=False
 
     try:
