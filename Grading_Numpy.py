@@ -76,8 +76,7 @@ def GRADING_Uni_LR(theta_0_CGD,theta_1_CGD,J_CompCost,theta_GDV,theta_best_NQ):
     except: grades["gradientDescent_Vec"]=False
   
     try:
-        if( 
-round(theta_best_NQ[0,0],4)==-3.8958 and round(theta_best_NQ[1,0],4)==1.193 ): grades["Normal_Eq"]=True
+        if(round(theta_best_NQ[0,0],4)==-3.8958 and round(theta_best_NQ[1,0],4)==1.193 ): grades["Normal_Eq"]=True
     except: grades["Normal_Eq"]=False
   
 
