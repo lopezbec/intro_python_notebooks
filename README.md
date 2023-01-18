@@ -18,6 +18,7 @@
   </td>
   <td>
   </table>
+<br><br></br>
 
 # Intro to Numpy
 <table align="left">
@@ -26,3 +27,4 @@
   </td>
    <td>
   </table>
+  <br><br></br>
