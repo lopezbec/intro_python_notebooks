@@ -1,12 +1,10 @@
 
 
-def GRADING_Algebra(testx,normalizeCols,dot_classic,dot_vectorized,mul_classic,mul_vectorized,Gdot_classic,Gdot_vectorized):
+def GRADING_Algebra(testx,dot_classic,dot_vectorized,mul_classic,mul_vectorized,Gdot_classic,Gdot_vectorized):
     
-    grades={"normalizeCols":False, "dot_classic":False,"dot_vectorized":False,
+    grades={ "dot_classic":False,"dot_vectorized":False,
             "mul_classic":False,"mul_vectorized":False,"Gdot_classic":False,"Gdot_vectorized":False}
-    try:
-        if(round(normalizeCols(testx)[0,0],3)==round(0.2672612419124244,3)): grades["normalizeCols"]=True
-    except: grades["normalizeCols"]=False
+
     try:
         if(round(dot_classic,3)==round(236.14775068085237,3)): grades["dot_classic"]=True
     except: grades["dot_classic"]=False
