@@ -57,3 +57,29 @@ def GRADING_NumPy_intro(np441,npodds,x1dim,x1shape,x1size,x1sizeb,x3D_normal):
 
     for x in grades:
         print (x,':',grades[x])
+
+        
+def GRADING_Uni_LR(theta_0_CGD,theta_1_CGD,J_CompCost,theta_GDV,theta_best_NQ):
+
+    grades={"Classic_gradientDescent":False, "computeCost": False, "gradientDescent_Vec": False, "Normal_Eq": False}
+
+    try:
+        if( round(theta_0_CGD[0],3)==-0.577 and round(theta_1_CGD[0],3)==0.86): grades["Classic_gradientDescent"]=True
+    except: grades["Classic_gradientDescent"]=False
+  
+    try:
+        if( round(J,3)==794.898): grades["computeCost"]=True
+    except: grades["computeCost"]=False
+
+    try:
+        if( round(theta_GDV[0,0],4)==0.0086 and round(theta_GDV[1,0],4)==0.8008 ): grades["gradientDescent_Vec"]=True
+    except: grades["gradientDescent_Vec"]=False
+  
+    try:
+        if( 
+round(theta_best_NQ[0,0],4)==-3.8958 and round(theta_best_NQ[1,0],4)==1.193 ): grades["Normal_Eq"]=True
+    except: grades["Normal_Eq"]=False
+  
+
+    for x in grades:
+        print (x,':',grades[x])
