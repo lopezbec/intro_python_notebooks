@@ -76,3 +76,13 @@
   <td>
       </table>
         <br><br></br> 
+
+# Multiple GD Implementation
+<table align="left">
+  <td>
+    <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/master/Gradient_Descent_Implementations.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  </td>
+  <td>
+      </table>
+        <br><br></br> 
+
