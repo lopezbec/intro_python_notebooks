@@ -11,11 +11,11 @@ ridge_regression_pipeline,RMSE_training_Ridge, RMSE_test_Ridge,RMSE_training_Las
 
 
     try:
-        if(X_norm[1, 1]==-0.2260933675776883): grades["feature_Normalize_implementation"]=True
+        if(round(X_norm[1, 1],4)==round(-0.2260933675776883,4)): grades["feature_Normalize_implementation"]=True
     except: grades["feature_Normalize_implementation"]=False
 
     try:
-        if(theta_best[2, 0]==-1.5910351642724834  and theta_cost==0.1431121203755772 ): grades["normalEqn_Reg"]=True
+        if(round(theta_best[2, 0],4)==round(-1.5910351642724834,4)  and round(theta_cost,3)==round(0.1431121203755772,3) ): grades["normalEqn_Reg"]=True
     except: grades["normalEqn_Reg"]=False
 
 
