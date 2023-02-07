@@ -130,7 +130,7 @@
           <br><br></br> 
 
 
-#Logistic Regression implementation
+# Logistic Regression implementation
 
 <table align="left">
   <td>
