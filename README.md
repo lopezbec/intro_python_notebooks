@@ -116,6 +116,7 @@
     <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/master/Multiple_Regularize_LR_implementation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   </td>
   <td>
+         </table>
       <br><br></br> 
 
 # Introduction to Logistic Regression and Decision Boundaries
@@ -125,4 +126,5 @@
     <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/master/Decision_Boundaries_Logistic_Regression.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   </td>
   <td>
+         </table>
           <br><br></br> 
