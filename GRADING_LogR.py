@@ -1,4 +1,4 @@
-def GRADING(sigmoid,cost,grad,theta_GD,cost_GD,prob_new_student,cost_Reg,grad_Reg):
+def GRADING_LogR(sigmoid,cost,grad,theta_GD,cost_GD,prob_new_student,cost_Reg,grad_Reg):
 
 
     grades={"sigmoid":False, 
