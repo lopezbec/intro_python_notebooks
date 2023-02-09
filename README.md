@@ -130,11 +130,22 @@
           <br><br></br> 
 
 
-#Logistic Regression implementation
+# Logistic Regression implementation
 
 <table align="left">
   <td>
     <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/master/LogRegression_Regularized_Implementation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  </td>
+  <td>
+         </table>
+          <br><br></br> 
+
+
+# Softmax  implementation
+
+<table align="left">
+  <td>
+    <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/master/Softmax_Implementation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   </td>
   <td>
          </table>
