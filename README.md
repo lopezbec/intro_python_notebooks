@@ -150,3 +150,13 @@
   <td>
          </table>
           <br><br></br> 
+
+# Logistic Regression as a NN  implementation
+
+<table align="left">
+  <td>
+    <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/master/Logistic_Regression_as_NN.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  </td>
+  <td>
+         </table>
+          <br><br></br> 
