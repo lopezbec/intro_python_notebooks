@@ -1,4 +1,4 @@
-def GRADING_LogRNN(m_train, m_test,train_set_x_flatten,sigmoid_in,initialize_with_zeros,propagate_in,params,predict,d):
+def GRADING_LogRNN(m_train, m_test,train_set_x_flatten,sigmoid_in,initialize_with_zeros,propagate_in,params,predict_in,d):
 
 
     grades={"reshaping":False, 
