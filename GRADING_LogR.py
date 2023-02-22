@@ -27,7 +27,7 @@ def GRADING_LogR(sigmoid,cost,grad,theta_GD,cost_GD,prob_new_student,cost_Reg,gr
     except: grades["cost_GD"]=False
 
     try:
-        if(round(prob_new_student[0,0],3)==round(0.7762466784809318,3): grades["predict"]=True
+        if(round(prob_new_student[0,0],3)==round(0.7762466784809318,3)): grades["predict"]=True
     except: grades["predict"]=False
 
     try:
