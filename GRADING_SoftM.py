@@ -8,7 +8,7 @@ def GRADING_SoftM(accuracy_score_1, accuracy_score_l2,accuracy_score_estop,accur
 
 
     try:
-        if(round(accuracy_score_1,2)==0.97): grades["accuracy_score_1"]=True
+        if(round(accuracy_score_1,2)==0.933): grades["accuracy_score_1"]=True
     except: grades["accuracy_score_1"]=False
 
     try:
