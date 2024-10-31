@@ -1,5 +1,5 @@
 
-# Yolov5 SImple Colab
+# Yolov5 Simple Colab
 
 <table align="left">
   <td>
