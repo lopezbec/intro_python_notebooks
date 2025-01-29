@@ -86,3 +86,22 @@ def GRADING_Uni_LR(theta_0_CGD,theta_1_CGD,J_CompCost,theta_GDV,theta_best_NQ):
         
         
 
+def GRADINGPandas(p1,s1,df1,p2):
+    grades={"p1":False, "s1":False,"df1":False,
+            "p2":False}
+    try:
+        if(p1[1]==0.5  and  p1[2]==0.75): grades["p1"]=True
+    except: grades["p1"]=False
+    try:
+        if(s1.shape[0]==5   and s1['c']==1.41): grades["s1"]=True
+    except: grades["s1"]=False
+    try:
+        if(df1.shape[1]==2 and df1['Squared'].iloc[1]==7.3441): grades["df1"]=True
+    except: grades["df1"]=False
+    try:
+        if(p2.shape[1]==2 and p2['Values'].iloc[1]==1.41): grades["p2"]=True
+    except: grades["p2"]=False
+ 
+ 
+    for x in grades:
+        print (x,':',grades[x])
