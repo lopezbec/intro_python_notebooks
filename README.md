@@ -7,7 +7,7 @@
   </td>
    <td>
   </table>
-
+<br><br></br>
 
 # Data Visualization Python
 
@@ -18,6 +18,8 @@
    <td>
   </table>
 <br><br></br>
+
+
 # Intro to Colab
 
 <table align="left">
