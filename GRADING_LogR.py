@@ -12,7 +12,7 @@ def GRADING_LogR(sigmoid,cost,grad,theta_GD,cost_GD,prob_new_student,cost_Reg,gr
         if( sigmoid(0)==0.5): grades["sigmoid"]=True
     except: grades["sigmoid"]=False
     try:
-        if(round(cost,2)==round(0.2183301938265977,3)): grades["cost"]=True
+        if(round(cost,2)==round(0.2183301938265977,2)): grades["cost"]=True
     except: grades["cost"]=False
     try:
         if(round(grad[1],2)==round(2.5662341155107558,2)): grades["grad"]=True
