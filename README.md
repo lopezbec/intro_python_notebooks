@@ -276,6 +276,17 @@
           <br><br></br> 
 
 
+# Capstone 4 DS-201 
+<table align="left">
+  <td>
+    <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/master/Capstone_4_DS201.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  </td>
+  <td>
+         </table>
+          <br><br></br> 
+
+          
+
 ### Coin flip sim
 <table align="left">
   <td>
