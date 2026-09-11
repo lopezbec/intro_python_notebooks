@@ -325,4 +325,12 @@
          </table>
           <br><br></br> 
 
+### Run Turrle Example in Colab 
+<table align="left">
+  <td>
+    <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/master/Python_Turtle_Graphics_in_COLAB.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  </td>
+  <td>
+         </table>
+          <br><br></br> 
           
