@@ -402,3 +402,16 @@
   <td>
          </table>
           <br><br></br> 
+
+
+###   K_Means_Implementation
+<table align="left">
+  <td>
+    <a href="https://colab.research.google.com/github/lopezbec/intro_python_notebooks/blob/master/K_Means_Implementation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  </td>
+  <td>
+         </table>
+          <br><br></br> 
+
+
+        
